@@ -1,10 +1,7 @@
 void main() {
-  print(solution('Ahmed'));
+  print(multiply(1, 1));
 }
-String solution(String str) {
-  String reversed = '';
-  for (int i = str.length - 1; i >=0; i--) {
-    reversed = reversed + str[i];
-  }
-  return reversed; // Fix me!
+int multiply(int a , int b){
+  return a * b;
 }
+

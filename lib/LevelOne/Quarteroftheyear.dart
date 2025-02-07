@@ -14,6 +14,7 @@ void main() {
 }
 
 int quarter(int month) {
+  // ignore: unused_local_variable
   int quarter = 0;
   if (month >= 1 && month <= 3) {
     return quarter = 1;

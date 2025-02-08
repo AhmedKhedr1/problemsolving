@@ -4,7 +4,7 @@ void main() {
 }
 
 int sumArray(List<int>? array) {
-  if (array == null || array.length<= 2) {
+  if (array == null || array.length <= 2) {
     return 0;
   }
   int max = array[0];

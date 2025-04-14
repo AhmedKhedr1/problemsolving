@@ -2,15 +2,6 @@ void main() {
   print(orderWeight('50  10 20 30 40 '));
 }
 
-/*String orderWeight(String strng) {
-  List<String> numbers = strng.trim().split(RegExp(r'\s+'));
-  List<int> Result = [];
-  for (int i = 0; i < numbers.length; i++) {
-    Result.add(numbers[i].split('').map(int.parse).reduce((a, b) => a + b));
-  }
-  return Result.join(' ');
-} */
-
 String orderWeight(String strng) {
   List<String> numbers = strng.trim().split(RegExp(r'\s+'));
 

@@ -1,4 +1,6 @@
-void main() {}
+void main() {
+  humanReadable(10);
+}
 
 String humanReadable(int seconds) {
   int hours = seconds ~/ 3600;
